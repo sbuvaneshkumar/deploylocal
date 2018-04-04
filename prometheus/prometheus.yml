@@ -64,4 +64,4 @@ configMaps:
         scheme: [[ APP_SCHEME : http ]]
         static_configs:
         - targets:
-          - [[ APP_URL : http://apache2:8080 ]]
+          - [[ APP_URL : http://apache-apache2.e8ca.engint.openshiftapps.com ]]
