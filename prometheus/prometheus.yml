@@ -57,11 +57,11 @@ configMaps:
         - targets:
           - localhost:9090
   
-      - job_name: [[ APP_NAME : wit ]]
+      - job_name: [[ APP_NAME : apache2 ]]
         scrape_interval: 15s
         scrape_timeout: 10s
         metrics_path: /metrics
         scheme: [[ APP_SCHEME : http ]]
         static_configs:
         - targets:
-          - [[ APP_URL : http://wit:8080 ]]
+          - [[ APP_URL : http://apache2:8080 ]]
